@@ -17,7 +17,7 @@ The Risk Score Service needs to maintain an endpoint `/v2/risk` on the base URL 
 1. Read the necessary access requirements and click **Continue**.
 1. Configure the integration using the following fields:
    * **API Key** - The API key used to call the Risk Score Service.
-   * **API Base URL** - The base URL of the the Risk Score Service. Defaults to `https://api.example.com/`.
+   * **API Base URL** - The base URL of the Risk Score Service. Defaults to `https://api.example.com/`.
    * **Risk Score Threshold** - Optional value to block logins with a risk score greater than this value (range is 1 - 10).
 1. Click **Create** to add the integration to your Library.
 1. Click the **Add to flow** link on the pop-up that appears.
