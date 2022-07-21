@@ -2,9 +2,32 @@
 
 This repo contains an example for an Action that sends Auth0 profile data to a risk score API and makes decisions based on the response. The code in this repo is meant to be used as a starting point for an Action integration with a similar purpose and should not be used as-is in production. 
 
-Please see the [Post Login Action Integration template](https://github.com/Auth0-Marketplace/TEMPLATE-action-post-login/) for information on how to test, modify, and submit your completed integration.
-
 **Please Note:** The code in this repository should be used as an example to help write an Action integration, not used directly in production.
+
+## Getting started
+
+The code in the `integration/integration.action.js` file needs to saved to an Auth0 tenant ([sign up for free](https://auth0.com/signup)) in order to test how the Action is working. You can do this one of two ways:
+
+### Manual deployment
+
+The example Action code provided can be copy and pasted into the Auth0 Dashboard using the steps below. 
+
+1. [Create a new custom Action](https://auth0.com/docs/customize/actions/write-your-first-action) using the code from the `integration.action.js` file
+1. Change all instances of `event.configuration` to `event.secrets` in the Action code
+1. Add all secret values and dependencies being used
+1. Deploy and test the Action to make sure it's working properly
+
+### Integration template deployment
+
+The example Action can also be tested, linted, and deployed using the partner development tools provided by the [Action integration template](https://github.com/Auth0-Marketplace/TEMPLATE-action-post-login).
+
+1. Clone or download the repo linked above
+1. Copy the files from the `integration` directory in this example to the `integration` directory in the template
+1. Follow the instructions in the template README to deploy the Action to your tenant
+
+## Submitting your integration to Auth0
+
+Follow the [submission instructions in the template](https://github.com/Auth0-Marketplace/TEMPLATE-action-post-login#submit-for-review) to prepare your integration for submission. 
 
 ## What is Auth0?
 
