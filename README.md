@@ -10,7 +10,7 @@ The code in the `integration/integration.action.js` file needs to saved to an Au
 
 ### Manual deployment
 
-The example Action code provided can be copy and pasted into the Auth0 Dashboard using the steps below. 
+The example Action code provided can be copied and pasted into the Auth0 Dashboard using the steps below. 
 
 1. [Create a new custom Action](https://auth0.com/docs/customize/actions/write-your-first-action) using the code from the `integration.action.js` file
 1. Change all instances of `event.configuration` to `event.secrets` in the Action code
