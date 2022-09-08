@@ -1,4 +1,4 @@
-# This respository has been ACRHIVED
+# This repository has been ARCHIVED
 The example has moved into the [Post Login Action Template Repository](https://github.com/Auth0-Marketplace/TEMPLATE-action-post-login/tree/main/examples)
 
 # Risk Score Example Action Integration
